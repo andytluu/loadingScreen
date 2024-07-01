@@ -29,4 +29,14 @@ body{
     border-right-color: rgba(3,155,229,1);
     border-bottom-color:rgba(3,155,229,1);
     border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    to{
+        transform: rotate(1turn);
+    }
 }
